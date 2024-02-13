@@ -2,7 +2,7 @@
 //  LoginAndRegisterVC.swift
 //  ChatApp
 //
-//  Created by 2B on 11/02/2024.
+//  Created by Ahmed Abo Elsood on 11/02/2024.
 //
 
 import UIKit
