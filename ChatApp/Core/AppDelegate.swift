@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ChatApp
 //
-//  Created by 2B on 30/01/2024.
+//  Created by Ahmed Abo Elsood on 30/01/2024.
 //
 
 import UIKit

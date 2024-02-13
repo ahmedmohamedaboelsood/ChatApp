@@ -15,6 +15,15 @@
 		216F66902B79086600C5255B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 216F668F2B79086600C5255B /* GoogleService-Info.plist */; };
 		216F669C2B79166C00C5255B /* LoginAndRegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F669A2B79166C00C5255B /* LoginAndRegisterVC.swift */; };
 		216F669D2B79166C00C5255B /* LoginAndRegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216F669B2B79166C00C5255B /* LoginAndRegisterVC.xib */; };
+		216F66A02B7B5CBB00C5255B /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F669F2B7B5CBB00C5255B /* AppFonts.swift */; };
+		216F66A62B7B5DE100C5255B /* Almarai-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 216F66A22B7B5DE100C5255B /* Almarai-ExtraBold.ttf */; };
+		216F66A72B7B5DE100C5255B /* Almarai-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 216F66A32B7B5DE100C5255B /* Almarai-Regular.ttf */; };
+		216F66A82B7B5DE100C5255B /* Almarai-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 216F66A42B7B5DE100C5255B /* Almarai-Bold.ttf */; };
+		216F66A92B7B5DE100C5255B /* Almarai-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 216F66A52B7B5DE100C5255B /* Almarai-Light.ttf */; };
+		216F66AC2B7B642D00C5255B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F66AB2B7B642D00C5255B /* Colors.swift */; };
+		216F66AE2B7B644700C5255B /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216F66AD2B7B644700C5255B /* Colors.xcassets */; };
+		216F66B32B7B66A800C5255B /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F66B22B7B66A800C5255B /* InternetConnection.swift */; };
+		216F66B52B7B670100C5255B /* UIViewControllers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F66B42B7B670100C5255B /* UIViewControllers+Extensions.swift */; };
 		EA150C8386BA675F85D27714 /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD8FAAA1D938DD44D765C05 /* Pods_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +38,15 @@
 		216F668F2B79086600C5255B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		216F669A2B79166C00C5255B /* LoginAndRegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndRegisterVC.swift; sourceTree = "<group>"; };
 		216F669B2B79166C00C5255B /* LoginAndRegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginAndRegisterVC.xib; sourceTree = "<group>"; };
+		216F669F2B7B5CBB00C5255B /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
+		216F66A22B7B5DE100C5255B /* Almarai-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-ExtraBold.ttf"; sourceTree = "<group>"; };
+		216F66A32B7B5DE100C5255B /* Almarai-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Regular.ttf"; sourceTree = "<group>"; };
+		216F66A42B7B5DE100C5255B /* Almarai-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Bold.ttf"; sourceTree = "<group>"; };
+		216F66A52B7B5DE100C5255B /* Almarai-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Almarai-Light.ttf"; sourceTree = "<group>"; };
+		216F66AB2B7B642D00C5255B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		216F66AD2B7B644700C5255B /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		216F66B22B7B66A800C5255B /* InternetConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
+		216F66B42B7B670100C5255B /* UIViewControllers+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewControllers+Extensions.swift"; sourceTree = "<group>"; };
 		929F2D8EB98E73683CA6CF78 /* Pods-ChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.release.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.release.xcconfig"; sourceTree = "<group>"; };
 		BAD8FAAA1D938DD44D765C05 /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57711DFDF34D4B8EBA196A5 /* Pods-ChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatApp.debug.xcconfig"; path = "Target Support Files/Pods-ChatApp/Pods-ChatApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +85,7 @@
 		211D3E2B2B6934610007CF5D /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				216F66AF2B7B667F00C5255B /* Utilites */,
 				216F66932B79157D00C5255B /* Scenes */,
 				216F66922B79154E00C5255B /* Resources */,
 				216F66912B79154500C5255B /* Core */,
@@ -88,6 +107,8 @@
 		216F66922B79154E00C5255B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				216F66AA2B7B630F00C5255B /* Colors */,
+				216F669E2B7B5CAB00C5255B /* Fonts */,
 				211D3E382B6934620007CF5D /* Assets.xcassets */,
 				211D3E3A2B6934620007CF5D /* LaunchScreen.storyboard */,
 				216F668F2B79086600C5255B /* GoogleService-Info.plist */,
@@ -150,6 +171,60 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		216F669E2B7B5CAB00C5255B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				216F66A12B7B5CC000C5255B /* Fonts */,
+				216F669F2B7B5CBB00C5255B /* AppFonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		216F66A12B7B5CC000C5255B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				216F66A42B7B5DE100C5255B /* Almarai-Bold.ttf */,
+				216F66A22B7B5DE100C5255B /* Almarai-ExtraBold.ttf */,
+				216F66A52B7B5DE100C5255B /* Almarai-Light.ttf */,
+				216F66A32B7B5DE100C5255B /* Almarai-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		216F66AA2B7B630F00C5255B /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				216F66AB2B7B642D00C5255B /* Colors.swift */,
+				216F66AD2B7B644700C5255B /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		216F66AF2B7B667F00C5255B /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				216F66B12B7B669100C5255B /* Extentions */,
+				216F66B02B7B668A00C5255B /* Helper */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		216F66B02B7B668A00C5255B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				216F66B22B7B66A800C5255B /* InternetConnection.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		216F66B12B7B669100C5255B /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				216F66B42B7B670100C5255B /* UIViewControllers+Extensions.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 		5A37155F968391B0B3610E4D /* Pods */ = {
@@ -229,10 +304,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216F66AE2B7B644700C5255B /* Colors.xcassets in Resources */,
 				211D3E3C2B6934620007CF5D /* LaunchScreen.storyboard in Resources */,
+				216F66A92B7B5DE100C5255B /* Almarai-Light.ttf in Resources */,
 				216F669D2B79166C00C5255B /* LoginAndRegisterVC.xib in Resources */,
 				216F66902B79086600C5255B /* GoogleService-Info.plist in Resources */,
 				211D3E392B6934620007CF5D /* Assets.xcassets in Resources */,
+				216F66A62B7B5DE100C5255B /* Almarai-ExtraBold.ttf in Resources */,
+				216F66A72B7B5DE100C5255B /* Almarai-Regular.ttf in Resources */,
+				216F66A82B7B5DE100C5255B /* Almarai-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,9 +365,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216F66B52B7B670100C5255B /* UIViewControllers+Extensions.swift in Sources */,
 				211D3E372B6934610007CF5D /* ChatApp.xcdatamodeld in Sources */,
+				216F66AC2B7B642D00C5255B /* Colors.swift in Sources */,
+				216F66A02B7B5CBB00C5255B /* AppFonts.swift in Sources */,
 				216F669C2B79166C00C5255B /* LoginAndRegisterVC.swift in Sources */,
 				211D3E2D2B6934610007CF5D /* AppDelegate.swift in Sources */,
+				216F66B32B7B66A800C5255B /* InternetConnection.swift in Sources */,
 				211D3E2F2B6934610007CF5D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
