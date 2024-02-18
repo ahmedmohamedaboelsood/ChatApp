@@ -9,6 +9,8 @@ import UIKit
 
 enum AppColors{
     case babyBlue
+    case navyBlue
+    case lightNavyBlue
 }
 
 extension AppColors{
@@ -16,6 +18,10 @@ extension AppColors{
         switch self {
         case .babyBlue:
             return UIColor(named: "babyBlue") ?? .red
+        case .navyBlue :
+            return UIColor(named: "navyBlue") ?? .red
+        case .lightNavyBlue:
+            return UIColor(named: "lightNavyBlue") ?? .red
         }
     }
 }

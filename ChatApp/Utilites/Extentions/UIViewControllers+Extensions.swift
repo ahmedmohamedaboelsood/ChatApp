@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ProgressHUD
 
 extension UIViewController{
     
@@ -17,5 +18,13 @@ extension UIViewController{
     
     @objc func dismissKeyboard() {
         view.endEditing(true)
+    }
+    
+    func showError(message:String){
+        ProgressHUD.showError(message)
+    }
+    
+    func showSussess(message:String){
+        ProgressHUD.showSuccess(message)
     }
 }
