@@ -21,13 +21,25 @@ class Defaults{
                 UserDefaults.standard.set(data, forKey: Keys.userData.rawValue)
                 UserDefaults.standard.synchronize()
             }catch{
-                print("CanNot save user obj")
+                #if DEBUG
+                print("Cannot save user obj")
+                #endif
             }
         }
         
         get {
-            let userData = UserDefaults.standard.object(forKey: Keys.userData.rawValue)
-            return userData as? User
+            if let data = UserDefaults.standard.data(forKey: Keys.userData.rawValue) {
+                let decoder = JSONDecoder()
+                do {
+                    let user = try decoder.decode(User.self, from: data)
+                    return user
+                } catch {
+                    #if DEBUG
+                    print("Error decoding user object: \(error)")
+                    #endif
+                }
+            }
+            return nil
         }
     }
 }

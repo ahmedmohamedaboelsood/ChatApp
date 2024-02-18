@@ -13,7 +13,6 @@ class BaseTabBar: UITabBarController {
         super.viewDidLoad()
         setupUI()
         tabBar.backgroundColor = .white
-        navigationController?.navigationBar.isHidden = true
     }
     
     func setupUI(){
